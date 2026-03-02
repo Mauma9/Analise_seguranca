@@ -7,4 +7,5 @@ A equipe de segurança do CEUB possui muitas câmeras distribuídas nos campi. O
 # Integrantes
 * Maurício Frias
 * Gabriel Garcia
-* Pedro de Souza 
+* Pedro de Souza
+* Pedro Heringer
