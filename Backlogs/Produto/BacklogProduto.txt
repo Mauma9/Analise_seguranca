@@ -1,7 +1,7 @@
 ==============================================================================
 PRODUCT BACKLOG: [ANÁLISE DE VÍDEO DE SEGURANÇA]
 ==============================================================================
-VERSÃO: 1.0 | ÚLTIMA ATUALIZAÇÃO: [23/03/26]
+VERSÃO: 1.0 | ÚLTIMA ATUALIZAÇÃO: [24/03/26]
 DONO DO PRODUTO (PO): [Nós mesmos]
 ------------------------------------------------------------------------------
 
@@ -9,13 +9,13 @@ DONO DO PRODUTO (PO): [Nós mesmos]
 
 ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 ----|--------|------------------------------------------|---------------|
-001 | P1     | [Pesquisas sobre escopo do projeto]      | EM PROGRESSO  |
-002 | P1     | [Documento explicativo sobre o escopo]   | BACKLOG       |
-003 | P2     | [Documento funcnionalidades possíveis]   | BACKLOG       |
-004 | P2     | [Pesquisa sobre visão computacional]     | DEFINIÇÃO     |
-005 | P3     | [Pesqisa explorativa: oq é possivel]     | IDEIA         |
-006 | P4     | [Definir funcionalidades]                | IDEIA         |
-007 |        | [Definir nível de dificuldade p/aplicar] | [         ]   |
+001 |        | [Pesquisas sobre escopo do projeto]      |               |
+002 |        | [Documento explicativo sobre o escopo]   |               |
+003 |        | [Documento funcnionalidades possíveis]   |               |
+004 |        | [Pesquisa sobre visão computacional]     |               |
+005 |        | [Pesqisa explorativa: oq é possivel]     |               |
+006 |        | [Definir funcionalidades]                |               |
+007 |        | [Definir nível de dificuldade p/aplicar] |               |
 008 |        | [Pesquisa sobre armznmnt e trnmnt c/ vds]|               |
 009 |        | [Documento de tecs úteis]                |               |
 010 |        | [Desenvolvimento da interface]           |               |
@@ -27,30 +27,79 @@ DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
 ------------------------------------------------------------------------------
 
 ITEM ID: 001
-DESCRIÇÃO: "Como desenvolvedor, quero um esquema de banco de dados
-Oracle configurado para que eu possa persistir os dados da aplicação."
+DESCRIÇÃO: "Pesquisar sobre os principais problemas que podem ser 
+solucionados com um sistema inteligente."
 CRITÉRIOS DE ACEITAÇÃO:
-- Instância do Oracle 21c ativa.
-- Scripts SQL de criação de tabelas validados.
-- Conexão testada via JDBC no ambiente de desenvolvimento.
+- Cada um deve apresentar uma pesquisa e explicar o que foi aprendido.
 
 ITEM ID: 002
-DESCRIÇÃO: "Como usuário, quero fazer login com segurança
-para que meus dados pessoais fiquem protegidos."
+DESCRIÇÃO: "Desenvolver um documento explicativo sobre tudo o que
+podemos fazer com nosso sistema."
 CRITÉRIOS DE ACEITAÇÃO:
-- Password hashing implementado (BCrypt).
-- Retorno de Token JWT no login.
-- Middleware de segurança protegendo rotas sensíveis.
+- Documento claro e bem explicado, de forma que seja um compilado para
+acilitar na decisão do que iremos fazer.
 
+ITEM ID: 003
+DESCRIÇÃO: "A partir do documento de escopo, desenvolver um documento com
+uma lista de funcionalidades possíveis, cada funcionalidade deve estar
+atrelada com um nivél de diiculdade esperado"
+CRITÉRIOS DE ACEITAÇÃO:
+- O documento deve conter a lista com funcionalidade e nvl de dificuldade
+
+ITEM ID: 004
+DESCRIÇÃO: "Pesquisa detalhada sobre ferramentas de visão computacional e 
+processamento de imagem."
+CRITÉRIOS DE ACEITAÇÃO:
+- Listar as principais erramentas relevantes para o projeto.
+
+ITEM ID: 005
+DESCRIÇÃO: "Pesquisar sobre o que está, dentro do nosso alcance,
+possível de ser executado de forma satisatória."
+CRITÉRIOS DE ACEITAÇÃO:
+- Listar, de acordo com nossas limitações, o que iremos fazer.
+
+ITEM ID: 006
+DESCRIÇÃO: "Documento com explicações sobre cada uncionalidade e como
+ela vai ser implementada"
+CRITÉRIOS DE ACEITAÇÃO:
+- 
+
+ITEM ID: 007
+DESCRIÇÃO: "Elaborar parametros para medir a diiculdade de aplicação de cada 
+ferramenta"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 008
+DESCRIÇÃO: "Pesquisar sobre como vamos montar nossa base de dados de vídeos
+de camêras de segrança"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 009
+DESCRIÇÃO: "Fazer m gui com todas as tecnologias úteis para o projeto"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 010
+DESCRIÇÃO: "Desenvolver a interace que o usário vai interagir"
+CRITÉRIOS DE ACEITAÇÃO:
+- Estar funcionando 
+- Minimalista
+- Affordance adequado
+
+ITEM ID: 011
+DESCRIÇÃO: "Desenvolver o software de processamento de imagem, tanto para as
+uncionalidades mais simples que terão aplicações só com o processamento, quanto 
+para o treinamento dos modelos escolhidos"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 012
+DESCRIÇÃO: "Buscar um modelo que atenda as especiicações do nosso projeto"
+CRITÉRIOS DE ACEITAÇÃO:
 ------------------------------------------------------------------------------
 ESTRADA DO PRODUTO (Roadmap Simplificado)
 ------------------------------------------------------------------------------
-- RELEASE 1.0 (MVP): Login, Cadastro e Painel Básico.
-- RELEASE 2.0: Integrações externas e Relatórios Avançados.
-- RELEASE 3.0: PWA e Notificações Push.
+- RELEASE 1.0 (MVP): interface, ferramentas básicas de processamento de imagem
 
 ==============================================================================
 NOTAS DE REFINAMENTO:
-- Itens P1 e P2 devem ser detalhados antes da próxima Planning.
-- Considerar a containerização com Docker para facilitar o deploy.
+
 ==============================================================================
