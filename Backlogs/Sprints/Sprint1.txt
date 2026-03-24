@@ -34,7 +34,7 @@ procurar;
 ID    | TAREFA                                | RESPONSÁVEL
 ------|---------------------------------------|-------------
 001   | [Pesquisas]                           | [Todos]
-002   | [Lista dos principais problemas]      | [Todos]
+002   | [Lista dos principais objetivos]      | [Pedro H]
 003   | [Doc com ideias]                      | [Maurício]
 
 ------------------------------------------------------------
