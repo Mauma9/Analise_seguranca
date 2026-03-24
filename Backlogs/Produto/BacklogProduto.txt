@@ -12,10 +12,15 @@ ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 001 | P1     | [Pesquisas sobre escopo do projeto]      | EM PROGRESSO  |
 002 | P1     | [Documento explicativo sobre o escopo]   | BACKLOG       |
 003 | P2     | [Documento funcnionalidades possíveis]   | BACKLOG       |
-004 | P2     | [Pesquisa sobre visão comptacional]      | DEFINIÇÃO     |
+004 | P2     | [Pesquisa sobre visão computacional]     | DEFINIÇÃO     |
 005 | P3     | [Pesqisa explorativa: oq é possivel]     | IDEIA         |
 006 | P4     | [Definir funcionalidades]                | IDEIA         |
-007 | [ ]    | [Definir nível de dificuldade p/aplicar] | [         ]   |
+007 |        | [Definir nível de dificuldade p/aplicar] | [         ]   |
+008 |        | [Pesquisa sobre armznmnt e trnmnt c/ vds]|               |
+009 |        | [Documento de tecs úteis]                |               |
+010 |        | [Desenvolvimento da interface]           |               |
+011 |        | [Desenvolvimento do processamento de img]|               |
+012 |        | [Achar um modelo adqd ao escopo do prjt] |               |
 
 ------------------------------------------------------------------------------
 DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
