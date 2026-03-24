@@ -14,9 +14,10 @@ STATUS: Em Planejamento
 2. OBJETIVO DA SPRINT (Sprint Goal)
 ------------------------------------------------------------
 Descreva aqui o propósito principal desta Sprint:
-> Organizar as pesquisas para que possamos extrair informações
-relevantes para o projeto, documentar essas informações e atre-
-lar elas com o que a máquina vai tentar procurar nas imagens.
+> Organizar as pesquisas para que possamos extrair informa-
+ções relevantes para o projeto, documentar essas informações
+e atrelar elas com o que a máquina vai tentar procurar nas
+imagens.
 
 ------------------------------------------------------------
 3. INCREMENTO(S) DESEJADO(S)
@@ -33,17 +34,17 @@ procurar;
 ID    | TAREFA                                | RESPONSÁVEL
 ------|---------------------------------------|-------------
 001   | [Pesquisas]                           | [Todos]
-002   | [Lista dos principais problemas  ]    | [Todos]
+002   | [Lista dos principais problemas]      | [Todos]
 003   | [Doc com ideias]                      | [Maurício]
 
 ------------------------------------------------------------
 5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
 ------------------------------------------------------------
 A tarefa só é considerada "PRONTA" se cumprir:
-1. Os documentos escritos tem estar de acordo com o escopo do
-projeto;
+1. Os documentos escritos tem estar de acordo com o escopo
+do projeto;
 
 ============================================================
 NOTAS ADICIONAIS:
-[Espaço para observações da Daily ou impedimentos]
+[]
 ============================================================

@@ -1,0 +1,51 @@
+==============================================================================
+PRODUCT BACKLOG: [ANÁLISE DE VÍDEO DE SEGURANÇA]
+==============================================================================
+VERSÃO: 1.0 | ÚLTIMA ATUALIZAÇÃO: [23/03/26]
+DONO DO PRODUTO (PO): [Nós mesmos]
+------------------------------------------------------------------------------
+
+[ LEGENDA DE PRIORIDADE: P1 (Crítica) | P2 (Alta) | P3 (Média) | P4 (Baixa) ]
+
+ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
+----|--------|------------------------------------------|---------------|
+001 | P1     | [Pesquisas sobre escopo do projeto]      | EM PROGRESSO  |
+002 | P1     | [Documento explicativo sobre o escopo]   | BACKLOG       |
+003 | P2     | [Documento funcnionalidades possíveis]   | BACKLOG       |
+004 | P2     | [Pesquisa sobre visão comptacional]      | DEFINIÇÃO     |
+005 | P3     | [Pesqisa explorativa: oq é possivel]     | IDEIA         |
+006 | P4     | [Definir funcionalidades]                | IDEIA         |
+007 | [ ]    | [Definir nível de dificuldade p/aplicar] | [         ]   |
+
+------------------------------------------------------------------------------
+DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
+------------------------------------------------------------------------------
+
+ITEM ID: 001
+DESCRIÇÃO: "Como desenvolvedor, quero um esquema de banco de dados
+Oracle configurado para que eu possa persistir os dados da aplicação."
+CRITÉRIOS DE ACEITAÇÃO:
+- Instância do Oracle 21c ativa.
+- Scripts SQL de criação de tabelas validados.
+- Conexão testada via JDBC no ambiente de desenvolvimento.
+
+ITEM ID: 002
+DESCRIÇÃO: "Como usuário, quero fazer login com segurança
+para que meus dados pessoais fiquem protegidos."
+CRITÉRIOS DE ACEITAÇÃO:
+- Password hashing implementado (BCrypt).
+- Retorno de Token JWT no login.
+- Middleware de segurança protegendo rotas sensíveis.
+
+------------------------------------------------------------------------------
+ESTRADA DO PRODUTO (Roadmap Simplificado)
+------------------------------------------------------------------------------
+- RELEASE 1.0 (MVP): Login, Cadastro e Painel Básico.
+- RELEASE 2.0: Integrações externas e Relatórios Avançados.
+- RELEASE 3.0: PWA e Notificações Push.
+
+==============================================================================
+NOTAS DE REFINAMENTO:
+- Itens P1 e P2 devem ser detalhados antes da próxima Planning.
+- Considerar a containerização com Docker para facilitar o deploy.
+==============================================================================

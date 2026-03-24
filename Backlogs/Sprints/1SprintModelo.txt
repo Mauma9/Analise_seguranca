@@ -1,0 +1,51 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 01
+INÍCIO: [Data de Início]
+TÉRMINO (DEADLINE): Quarta-feira, 18 de Março
+STATUS: Em Planejamento
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+Descreva aqui o propósito principal desta Sprint:
+> Exemplo: Estabelecer a infraestrutura base e o sistema de
+  login funcional para os usuários iniciais.
+
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+O que será entregue de valor concreto ao final?
+* [ ] Ex: Módulo de autenticação integrado ao banco de dados.
+* [ ] Ex: Layout da Home Page responsivo.
+
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                | RESPONSÁVEL
+------|---------------------------------------|-------------
+001   | [Ex: Configurar Docker e Banco]       | [Nome]
+002   | [Ex: Criar Script de Migração SQL]    | [Nome]
+003   | [Ex: Desenvolver Interface de Login]  | [Nome]
+004   | [Ex: Implementar Validação de Token]  | [Nome]
+005   | [ ]                                   | [ ]
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+A tarefa só é considerada "PRONTA" se cumprir:
+1. Código revisado por outro membro (Peer Review).
+2. Testes unitários executados e aprovados.
+3. Documentação técnica atualizada no README/Wiki.
+4. Funcionalidade testada no ambiente de homologação.
+5. Sem bugs críticos pendentes.
+
+============================================================
+NOTAS ADICIONAIS:
+[Espaço para observações da Daily ou impedimentos]
+============================================================
