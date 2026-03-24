@@ -1,0 +1,39 @@
+============================================================
+Lista Objetivos Principais
+============================================================
+
+1. Detecção e Localização de Objetos
+
+    O que faz: Identifica se há objetos de interesse na imagem e onde eles estão. É aqui que entram os famosos "blocos" (chamados de Bounding Boxes).
+
+    Aplicações: Detectar pedestres e carros para veículos autônomos, encontrar produtos defeituosos em uma esteira de fábrica, ou localizar rostos em uma foto.
+
+2. Classificação de Imagens
+
+    O que faz: Analisa a imagem como um todo e atribui a ela uma categoria ou rótulo principal.
+
+    Aplicações: Filtrar imagens ofensivas em redes sociais, dizer se a foto é de um gato ou cachorro, ou classificar se uma imagem de satélite mostra uma área urbana ou florestal.
+
+3. Segmentação de Imagem
+
+    O que faz: Vai um passo além da detecção por "blocos". A segmentação divide a imagem ao nível do pixel, contornando a forma exata do objeto, e não apenas desenhando um retângulo em volta dele.
+
+    Aplicações: Na medicina (isolar o formato exato de um tumor em uma ressonância magnética), em agricultura de precisão (separar ervas daninhas da plantação).
+
+4. Contagem e Medição
+
+    O que faz: Utiliza algoritmos para contar instâncias repetidas ou calcular áreas e distâncias diretamente da imagem, retornando dados puramente numéricos.
+
+    Aplicações: Contar células ou bactérias em placas de Petri (biologia), contar o número de pessoas em uma multidão, ou calcular o tamanho de uma propriedade rural usando imagens de drone.
+
+5. Reconhecimento e Identificação
+
+    O que faz: Diferente da classificação (que diz "isso é um rosto"), o reconhecimento busca identificar uma instância específica ("este é o rosto do João").
+
+    Aplicações: Reconhecimento facial para desbloqueio de celulares, identificação de impressões digitais ou leitura de íris.
+
+6. Extração de Características
+
+    O que faz: Reduz a imagem a um conjunto de dados numéricos (vetores) que representam pontos importantes, como bordas, cantos, texturas e formas geométricas.
+
+    Aplicações: É frequentemente um passo intermediário. Esses "números" extraídos são enviados para modelos de inteligência artificial que tomarão a decisão final sobre a imagem.
