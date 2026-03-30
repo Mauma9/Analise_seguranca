@@ -1,7 +1,7 @@
 ==============================================================================
 PRODUCT BACKLOG: [ANÁLISE DE VÍDEO DE SEGURANÇA]
 ==============================================================================
-VERSÃO: 1.0 | ÚLTIMA ATUALIZAÇÃO: [24/03/26]
+VERSÃO: 1.0 | ÚLTIMA ATUALIZAÇÃO: [30/03/26]
 DONO DO PRODUTO (PO): [Nós mesmos]
 ------------------------------------------------------------------------------
 
@@ -9,42 +9,39 @@ DONO DO PRODUTO (PO): [Nós mesmos]
 
 ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 ----|--------|------------------------------------------|---------------|
-001 |        | [Pesquisas sobre escopo do projeto]      |               |
-002 |        | [Documento explicativo sobre o escopo]   |               |
-003 |        | [Documento funcnionalidades possíveis]   |               |
-004 |        | [Pesquisa sobre visão computacional]     |               |
-005 |        | [Pesqisa explorativa: oq é possivel]     |               |
-006 |        | [Definir funcionalidades]                |               |
-007 |        | [Definir nível de dificuldade p/aplicar] |               |
-008 |        | [Pesquisa sobre armznmnt e trnmnt c/ vds]|               |
-009 |        | [Documento de tecs úteis]                |               |
-010 |        | [Desenvolvimento da interface]           |               |
-011 |        | [Desenvolvimento do processamento de img]|               |
-012 |        | [Achar um modelo adqd ao escopo do prjt] |               |
+001 |   P1   | [Achar a base de dados para o projeto]   |               |
+002 |   P4   | [Pesquisas sobre escopo do projeto]      |               |
+003 |   P4   | [Documento explicativo sobre o escopo]   |               |
+004 |   P2   | [Pesquisa sobre visão computacional]     |               |
+005 |   P3   | [Pesqisa explorativa: oq é possivel]     |               |
+006 |   P4   | [Definir funcionalidades]                |               |
+007 |   P2   | [Pesquisa sobre armznmnt e trnmnt c/ vds]|               |
+008 |   P3   | [Documento de tecs úteis]                |               |
+009 |   P4   | [Desenvolvimento da interface]           |               |
+010 |   P4   | [Desenvolvimento do processamento de img]|               |
+011 |   P4   | [Achar um modelo adqd ao escopo do prjt] |               |
 
 ------------------------------------------------------------------------------
 DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
 ------------------------------------------------------------------------------
 
 ITEM ID: 001
+DESCRIÇÃO: "Ir atrás urgentemente de pelo menos 1 base de dados para
+que seja possível definir o escopo do projeto"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 002
 DESCRIÇÃO: "Pesquisar sobre os principais problemas que podem ser 
 solucionados com um sistema inteligente."
 CRITÉRIOS DE ACEITAÇÃO:
 - Cada um deve apresentar uma pesquisa e explicar o que foi aprendido.
 
-ITEM ID: 002
+ITEM ID: 003
 DESCRIÇÃO: "Desenvolver um documento explicativo sobre tudo o que
 podemos fazer com nosso sistema."
 CRITÉRIOS DE ACEITAÇÃO:
 - Documento claro e bem explicado, de forma que seja um compilado para
 acilitar na decisão do que iremos fazer.
-
-ITEM ID: 003
-DESCRIÇÃO: "A partir do documento de escopo, desenvolver um documento com
-uma lista de funcionalidades possíveis, cada funcionalidade deve estar
-atrelada com um nivél de diiculdade esperado"
-CRITÉRIOS DE ACEITAÇÃO:
-- O documento deve conter a lista com funcionalidade e nvl de dificuldade
 
 ITEM ID: 004
 DESCRIÇÃO: "Pesquisa detalhada sobre ferramentas de visão computacional e 
@@ -59,40 +56,37 @@ CRITÉRIOS DE ACEITAÇÃO:
 - Listar, de acordo com nossas limitações, o que iremos fazer.
 
 ITEM ID: 006
-DESCRIÇÃO: "Documento com explicações sobre cada uncionalidade e como
-ela vai ser implementada"
+DESCRIÇÃO: "Documento com explicações sobre cada funcionalidade e como
+ela vai ser implementada, com uma relação de qual o nível de dificuldade
+que vamos ter para implementa-la. Para o nível de dificuldade deverá
+também conter no documento os parametros para metrificar a dificuldade"
 CRITÉRIOS DE ACEITAÇÃO:
 - 
 
 ITEM ID: 007
-DESCRIÇÃO: "Elaborar parametros para medir a diiculdade de aplicação de cada 
-ferramenta"
+DESCRIÇÃO: "Pesquisar sobre como vamos armazenar nossa base de dados de vídeos
+de camêras de segrança e como tratar as imagens para usar no treinamento"
 CRITÉRIOS DE ACEITAÇÃO:
 
 ITEM ID: 008
-DESCRIÇÃO: "Pesquisar sobre como vamos montar nossa base de dados de vídeos
-de camêras de segrança"
+DESCRIÇÃO: "Fazer um guia com todas as tecnologias úteis para o projeto"
 CRITÉRIOS DE ACEITAÇÃO:
 
 ITEM ID: 009
-DESCRIÇÃO: "Fazer m gui com todas as tecnologias úteis para o projeto"
-CRITÉRIOS DE ACEITAÇÃO:
-
-ITEM ID: 010
 DESCRIÇÃO: "Desenvolver a interace que o usário vai interagir"
 CRITÉRIOS DE ACEITAÇÃO:
 - Estar funcionando 
 - Minimalista
 - Affordance adequado
 
-ITEM ID: 011
+ITEM ID: 010
 DESCRIÇÃO: "Desenvolver o software de processamento de imagem, tanto para as
 uncionalidades mais simples que terão aplicações só com o processamento, quanto 
 para o treinamento dos modelos escolhidos"
 CRITÉRIOS DE ACEITAÇÃO:
 
-ITEM ID: 012
-DESCRIÇÃO: "Buscar um modelo que atenda as especiicações do nosso projeto"
+ITEM ID: 011
+DESCRIÇÃO: "Buscar um modelo que atenda as especificações do nosso projeto"
 CRITÉRIOS DE ACEITAÇÃO:
 ------------------------------------------------------------------------------
 ESTRADA DO PRODUTO (Roadmap Simplificado)
