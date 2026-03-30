@@ -2,7 +2,7 @@
 Este é um repositório destinado ao desenvolvimento de um projeto de Análise de padrões de comportamento nos vídeos de segurança.
 
 # Premissa
-A equipe de segurança do CEUB possui muitas câmeras distribuídas nos campi. O objetivo é enviar um alerta para a equipe quando houver situações importantes para manter o ambiente seguro para discentes, docentes e demais colaboradores do CEUB. Por exemplo, se houver um tumulto que se assemelha com conflito ou brigas, ou uma árvore que partiu, um acidente de trabalho e outras ocorrências que exige urgência nas tomadas de decisões. A estratégia é fazer um treinamento por meio de imagens para detectar situações de risco por meio de redes neurais.
+O objetivo deste projeto é o desenvolvimento de um sistema modular de análise inteligente de vídeo voltado para ambientes monitorados por câmeras de segurança. Diferente de soluções rígidas, esta plataforma foi projetada para ser implementada em qualquer infraestrutura de monitoramento pré-existente, oferecendo uma camada de inteligência artificial capaz de transformar imagens em dados acionáveis em tempo real. A arquitetura do sistema permite a ativação ou desativação de funcionalidades específicas conforme a necessidade do ambiente — seja ele industrial, comercial ou residencial — tornando-o uma solução altamente personalizável e eficiente para a automação da segurança e tomada de decisão.
 
 # Integrantes
 * Maurício Frias
