@@ -9,7 +9,7 @@ DONO DO PRODUTO (PO): [Nós mesmos]
 
 ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 ----|--------|------------------------------------------|---------------|
-001 |   P1   | [Achar a base de dados para o projeto]   |               |
+001 |   P2   | [Achar a base de dados para o projeto]   |               |
 002 |   P4   | [Pesquisas sobre escopo do projeto]      |               |
 003 |   P4   | [Documento explicativo sobre o escopo]   |               |
 004 |   P2   | [Pesquisa sobre visão computacional]     |               |
@@ -20,7 +20,7 @@ ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 009 |   P4   | [Desenvolvimento da interface]           |               |
 010 |   P4   | [Desenvolvimento do processamento de img]|               |
 011 |   P4   | [Achar um modelo adqd ao escopo do prjt] |               |
-012 |   P4   | [Documentação MVP]                       |               |
+012 |   P1   | [Documentação MVP]                       |               |
 
 ------------------------------------------------------------------------------
 DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
