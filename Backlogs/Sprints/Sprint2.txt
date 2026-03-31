@@ -1,0 +1,50 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 02
+INÍCIO: [30/03/26]
+TÉRMINO (DEADLINE): Quarta-feira, 01 de Abril
+STATUS: Em Planejamento
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+Descreva aqui o propósito principal desta Sprint:
+> Formular uma estrategia para entrevistar melhor o cliente
+e desenvolver 2 funcionalidades para apresentar na entrevista
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+O que será entregue de valor concreto ao final?
+* [ ] Perguntas para a entrevista
+* [ ] 2 funcionalidades
+
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                | RESPONSÁVEL
+------|---------------------------------------|-------------
+001   | [Pergntas para a entrevista]          | [Nome]
+002   | [Detecção de objetos]                 |
+003   | [Detecção de quedas]                  |
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+A tarefa só é considerada "PRONTA" se cumprir:
+1. A lista deve conter perguntas que guiarão o rumo da
+entrevista;
+2. As funcionalidades devem ser testadas e entendidas
+para evitar e concertar falhas
+============================================================
+NOTAS ADICIONAIS:
+Perguntas:
+qual é a principal emergencia encontrada no asilo?
+quais são os locais da casa que eles mais transitam?
+dentro das emergencias, qual a relevancia de quedas?
+============================================================
+
