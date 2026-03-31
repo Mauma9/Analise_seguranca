@@ -20,6 +20,7 @@ ID  | PRIOR. | ITEM DO BACKLOG (USER STORY / REQUISITO) | STATUS        |
 009 |   P4   | [Desenvolvimento da interface]           |               |
 010 |   P4   | [Desenvolvimento do processamento de img]|               |
 011 |   P4   | [Achar um modelo adqd ao escopo do prjt] |               |
+012 |   P4   | [Documentação MVP]                       |               |
 
 ------------------------------------------------------------------------------
 DETALHAMENTO DE ITENS PRIORITÁRIOS (Refinement)
@@ -87,6 +88,11 @@ CRITÉRIOS DE ACEITAÇÃO:
 
 ITEM ID: 011
 DESCRIÇÃO: "Buscar um modelo que atenda as especificações do nosso projeto"
+CRITÉRIOS DE ACEITAÇÃO:
+
+ITEM ID: 012
+DESCRIÇÃO: "Documento de requisito, Docmento de escopo, Documento de modelagem
+de processos"
 CRITÉRIOS DE ACEITAÇÃO:
 ------------------------------------------------------------------------------
 ESTRADA DO PRODUTO (Roadmap Simplificado)
