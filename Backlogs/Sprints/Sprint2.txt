@@ -43,8 +43,32 @@ para evitar e concertar falhas
 ============================================================
 NOTAS ADICIONAIS:
 Perguntas:
-qual é a principal emergencia encontrada no asilo?
-quais são os locais da casa que eles mais transitam?
-dentro das emergencias, qual a relevancia de quedas?
+  Quais são os incidentes mais críticos que ocorrem hoje
+  e que o sistema deveria detectar automaticamente?
+
+  Quais são os locais da casa que eles mais transitam?
+
+  Dentro das emergencias, qual a relevancia de quedas?
+
+  Existe problemas com fugas? Ou tentativa de entrar em areas
+  restritas?
+
+  Existem comportamentos anômalos que indicam risco,
+  mas que não são uma emergência imediata?
+
+  Pode relatar um incidente recente que ocorreu na casa que este software idealmente teria evitado ou minimizado?
+
+  Quem deve receber esses alertas? Todos os funcionários do plantão ou apenas o enfermeiro responsável pelo setor?
+
+  Como a equipe lida com "falsos positivos" hoje? Se o sistema gerar alarmes falsos (ex: achar que uma pessoa dormindo no sofá caiu), isso causaria muita frustração a ponto de abandonarem o uso?
+
+  Qual é o nível de familiaridade da equipe de cuidadores e enfermagem com novas tecnologias?
+
+  Qual é a infraestrutura atual de câmeras? (Já existem câmeras IP modernas ou são analógicas antigas? Quantas são?)
+
+  Como é a qualidade e a estabilidade da internet no local? (Isso define se o processamento das imagens precisará ser feito localmente em um servidor físico na casa de idosos ou se pode ser enviado para a nuvem).
+
+  Existem pontos "cegos" na instituição hoje ou áreas com péssima iluminação (especialmente à noite) onde câmeras infravermelhas seriam necessárias?
+
 ============================================================
 
