@@ -1,0 +1,38 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [ANÁLISE VÍDEO DE SEGURANÇA]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 03
+INÍCIO: 06/04/26
+TÉRMINO (DEADLINE): Quarta-feira, 08 de Abril
+STATUS: Em Execução
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+> Formular o MVP baseado estritamente em Processamento de
+  Imagem (OpenCV), sem dependência de Machine Learning.
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+* [ ] Projeto do MVP (Escopo Técnico PDI)
+* [ ] Lista de algoritmos clássicos por funcionalidade
+
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                         | RESP.
+------|------------------------------------------------|-------
+001   | Definir algoritmos de PDI (Canny, Sobel, MOG2) |
+002   | Mapear lógica de detecção de ruído/falha       |
+003   | Planejar detecção de mudança por Histograma    |
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+1. Escopo técnico validado sem modelos .pt ou .weights.
+2. Fluxograma de processamento de frames definido.
+============================================================

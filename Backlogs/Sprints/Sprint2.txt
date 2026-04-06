@@ -43,18 +43,15 @@ para evitar e concertar falhas
 ============================================================
 NOTAS ADICIONAIS:
 Perguntas:
-  Quais são os incidentes mais críticos que ocorrem hoje
-  e que o sistema deveria detectar automaticamente?
+  Quais são os incidentes mais críticos que ocorrem hoje e que o sistema deveria detectar automaticamente?
 
   Quais são os locais da casa que eles mais transitam?
 
   Dentro das emergencias, qual a relevancia de quedas?
 
-  Existe problemas com fugas? Ou tentativa de entrar em areas
-  restritas?
+  Existe problemas com fugas? Ou tentativa de entrar em areas restritas?
 
-  Existem comportamentos anômalos que indicam risco,
-  mas que não são uma emergência imediata?
+  Existem comportamentos anômalos que indicam risco, mas que não são uma emergência imediata?
 
   Pode relatar um incidente recente que ocorreu na casa que este software idealmente teria evitado ou minimizado?
 

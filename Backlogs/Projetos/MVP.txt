@@ -1,0 +1,46 @@
+============================================================
+SISTEMA DE MONITORAMENTO INTELIGENTE (SMI) - FOCO EM PDI
+============================================================
+
+1. DESCRIÇÃO
+Sistema de análise de vídeo baseado em Visão Computacional
+Clássica. O objetivo é a eficiência computacional utilizando
+apenas a biblioteca OpenCV para detecção de anomalias.
+
+2. FUNCIONALIDADES E ABORDAGEM TÉCNICA (SEM ML)
+
+A. Detecção de Falhas e Ruídos:
+   - Falha (Câmera Off): Monitoramento de média de brilho
+     (se próximo de 0 ou 255 constante = alerta).
+   - Ruído/Estática: Análise de Variância Global. Se a
+     variação de alta frequência (Laplaciano) oscilar
+     desordenadamente, identifica-se ruído.
+
+B. Objetos em Locais Indevidos (Intrusão):
+   - Método: Subtração de Fundo (Background Subtraction).
+   - Algoritmo: MOG2 ou KNN (OpenCV).
+   - Lógica: Se o contorno detectado na ROI (Region of Interest)
+     tiver área > X pixels, emitir alerta de "Objeto Presente".
+
+C. Mudança de Posicionamento de Móveis:
+   - Método: Comparação de Histogramas ou Template Matching.
+   - Lógica: Comparação do frame atual com um "Frame de Ouro"
+     (referência). Se a correlação cair abaixo de 90%,
+     indica-se alteração no layout do ambiente.
+
+3. STACK TECNOLÓGICA
+- Python 3.10
+- OpenCV (cv2)
+- NumPy (Processamento matricial dos frames)
+
+4. ESTRUTURA DE ARQUIVOS SUGERIDA
+/SMI_PDI
+│
+├── /docs              # Documentação e Sprints
+├── /src
+│   ├── engine.py      # Loop principal de captura
+│   ├── filters.py     # Filtros (Blur, Grayscale, Canny)
+│   └── alerts.py      # Gatilhos de alerta
+├── requirements.txt   # (Apenas opencv-python e numpy)
+└── main.py
+============================================================
