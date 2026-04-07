@@ -24,14 +24,38 @@ STATUS: Em Execução
 ------------------------------------------------------------
 4. SPRINT BACKLOG (LISTA DE TAREFAS)
 ------------------------------------------------------------
-ID    | TAREFA                                         | RESP.
-------|------------------------------------------------|-------
-001   | Definir algoritmos de PDI (Canny, Sobel, MOG2) |
+ID    | TAREFA                                         | RSP.
+------|------------------------------------------------|-----
+001   | Definir algoritmos de PDI                      |
 002   | Mapear lógica de detecção de ruído/falha       |
 003   | Planejar detecção de mudança por Histograma    |
 
 ------------------------------------------------------------
-5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+
+5. SPRINT BACKLOG (DETALHAMENTO DE TAREFAS)
+------------------------------------------------------------
+
+ID 001 | DEFINIR ALGORITMOS DE PDI
+- Descrição: Seleção de filtros e transformações base.
+- Detalhes: Uso de cv2.GaussianBlur para redução de ruído e 
+  cv2.Canny para extração de contornos estruturais.
+- Meta: Lista de funções OpenCV necessárias para o core.
+
+ID 002 | MAPEAMENTO DE RUÍDO/FALHA
+- Descrição: Lógica para saúde do hardware da câmera.
+- Detalhes: 
+  * Falha: Cálculo de média de brilho (cv2.mean).
+  * Ruído: Variância via Laplaciano (cv2.Laplacian).
+  * Alerta: Gatilho se variação > Threshold_Estática.
+
+ID 003 | DETECÇÃO POR HISTOGRAMA
+- Descrição: Monitoramento de mudança de cenário (móveis).
+- Detalhes: 
+  * Geração de histogramas de 256 tons de cinza.
+  * Comparação via cv2.compareHist (Método: CORREL).
+  * Alerta: Se correlação < 0.90 (Mudança detectada).
+------------------------------------------------------------
+6. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
 ------------------------------------------------------------
 1. Escopo técnico validado sem modelos .pt ou .weights.
 2. Fluxograma de processamento de frames definido.
