@@ -1,0 +1,49 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 01
+INÍCIO: [Data de Início]
+TÉRMINO (DEADLINE): Quarta-feira, 18 de Março
+STATUS: Em Planejamento
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+Descreva aqui o propósito principal desta Sprint:
+> O objetivo da sprint é fazer a modelagem de processos das
+funcionalidades pensadas
+
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+O que será entregue de valor concreto ao final?
+* [ ] Modelagem da funcionalidade: detecção de falhas e
+ruidos;
+* [ ] Modelagem da funcionalidade: detecção de objetos em
+locais indesejados;
+* [ ] Modelagem da funcionalidade: detecção de mudança de
+posicionamento de móveis;
+* [ ] Modelagem da funcionalidade: detecção de padrões de
+queda;
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                | RESPONSÁVEL
+------|---------------------------------------|-------------
+001   | [Modelar funcionalidades]             | [Maurício/
+                                                    Gabriel]
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+A tarefa só é considerada "PRONTA" se cumprir:
+1. Revisão de um integrante do grupo
+
+============================================================
+NOTAS ADICIONAIS:
+
+============================================================

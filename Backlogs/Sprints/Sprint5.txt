@@ -1,0 +1,52 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 05
+INÍCIO: 13/04/2026
+TÉRMINO (DEADLINE): Segunda-feira, 20 de Abril
+STATUS: Finalizado
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+Descreva aqui o propósito principal desta Sprint:
+> Montar os diagramas de caso de uso e de modelagem de negó-
+cios para cada funcionalidade do produto.
+
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+O que será entregue de valor concreto ao final?
+* [ ] Documentação mais robusta atendendo os requisitos es-
+tabelecidos anteriormente.
+
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                | RESPONSÁVEL
+------|---------------------------------------|-------------
+001   | Criar o diagrama de caso de uso	      | Gabriel/Mauricio/Pedro
+002   | Criar a modelagem de negócios para    | Gabriel
+	situações de queda 
+003   | Criar a modelagem de negócios para    | Gabriel
+	situações de anomalias no ambiente
+004   | Criar a modelagem de negócios para    | Mauricio
+	situações de falha de sistema
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+A tarefa só é considerada "PRONTA" se cumprir:
+1. Diagrama de caso de uso feito e aprovados pelos membros
+da equipe e professor
+2. Um diagrama de modelagem de negócios para cada funcionalidade
+
+
+============================================================
+NOTAS ADICIONAIS:
+[Espaço para observações da Daily ou impedimentos]
+============================================================
