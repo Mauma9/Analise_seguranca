@@ -1,0 +1,45 @@
+============================================================ 
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO] 
+============================================================ 
+
+------------------------------------------------------------ 
+1. INFORMAÇÕES GERAIS 
+------------------------------------------------------------ 
+SPRINT #: 09 
+INÍCIO: 11/05/2026 
+TÉRMINO (DEADLINE): Segunda-feira, 18 de Maio 
+STATUS: Aberto
+
+------------------------------------------------------------ 
+2. OBJETIVO DA SPRINT (Sprint Goal) 
+------------------------------------------------------------ 
+
+> Dar continuidade a formulação do documento de arquitetura e 
+formulação do plano de ações.
+
+------------------------------------------------------------ 
+3. INCREMENTO(S) DESEJADO(S) 
+------------------------------------------------------------ 
+O que será entregue de valor concreto ao final? 
+* [ ] Documento de arquitetura.
+* [ ] Plano de ações.
+------------------------------------------------------------ 
+4. SPRINT BACKLOG (LISTA DE TAREFAS) 
+------------------------------------------------------------ 
+ID    | TAREFA                                | RESPONSÁVEL 
+------|---------------------------------------|------------- 
+001   | Documento de arquitetura                  | Mauricio/PH
+002   | Definir e dividir tarefas (Plano de ações)| Gabriel/PS
+003   | Aberto a sugestões			  |  Mauricio/PH
+
+------------------------------------------------------------ 
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD) 
+------------------------------------------------------------ 
+A tarefa só é considerada "PRONTA" se cumprir: 
+1. Upload de documentaçao no GitHub do projeto.
+
+
+============================================================ 
+NOTAS ADICIONAIS: 
+[Espaço para observações da Daily ou impedimentos] 
+============================================================
