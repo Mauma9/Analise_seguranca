@@ -16,7 +16,8 @@ STATUS: Aberto
 Descreva aqui o propósito principal desta Sprint: 
 > Revisar e, se necessário, alterar o Documento de Definição
 de Requisitos, definir as restrições e ferramentas para o desen-
-volvimento do projeto e montar um plano com todas as estapas de desenvolvimento e dividir tarefas.
+volvimento do projeto e montar um plano com todas as estapas de 
+desenvolvimento e dividir tarefas e finalmente montar um protótipo.
 
 ------------------------------------------------------------ 
 3. INCREMENTO(S) DESEJADO(S) 
@@ -25,15 +26,16 @@ O que será entregue de valor concreto ao final?
 * [ ] Versão final do DDR.
 * [ ] Documento de stack de ferramentas.
 * [ ] Plano de ações.
+* [ ] Prototipo inicial.
 ------------------------------------------------------------ 
 4. SPRINT BACKLOG (LISTA DE TAREFAS) 
 ------------------------------------------------------------ 
 ID    | TAREFA                                | RESPONSÁVEL 
 ------|---------------------------------------|------------- 
-001   | Revisar e alterar o DDR                         | Gabriel/Mauricio/PH/PS 
-002   | Formular o documento de stack.            |  Gabriel/PS
-003   | Definir e dividir tarefas 
-|  Mauricio/PH
+001   | Revisar e alterar o DDR                   |  Gabriel/Mauricio/PH/PS 
+002   | Formular o documento de stack.            |  Gabriel/PH
+003   | Definir e dividir tarefas                 |  Mauricio/PS
+004   | Prototipagem do projeto                   |  Gabriel
 
 ------------------------------------------------------------ 
 5. DEFINIÇÃO DE FEITO (Definition of Done - DoD) 
