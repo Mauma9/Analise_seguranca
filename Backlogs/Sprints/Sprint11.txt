@@ -1,0 +1,45 @@
+============================================================
+REPOSITÓRIO DE SPRINT - [NOME DO PROJETO]
+============================================================
+
+------------------------------------------------------------
+1. INFORMAÇÕES GERAIS
+------------------------------------------------------------
+SPRINT #: 11
+INÍCIO: 01/06/26
+TÉRMINO (DEADLINE): Primeiro de Junho
+STATUS: Em Planejamento
+
+------------------------------------------------------------
+2. OBJETIVO DA SPRINT (Sprint Goal)
+------------------------------------------------------------
+Descreva aqui o propósito principal desta Sprint:
+> Exemplo: Estabelecer a infraestrutura base e o sistema de
+  login funcional para os usuários iniciais.
+
+------------------------------------------------------------
+3. INCREMENTO(S) DESEJADO(S)
+------------------------------------------------------------
+O que será entregue de valor concreto ao final?
+* [ ] Slide para pitch
+* [ ] Apresentação do pitch
+
+------------------------------------------------------------
+4. SPRINT BACKLOG (LISTA DE TAREFAS)
+------------------------------------------------------------
+ID    | TAREFA                                | RESPONSÁVEL
+------|---------------------------------------|-------------
+001   | [Slides]                              | [Gabriel]
+002   | [Apresentar]                          |
+
+
+------------------------------------------------------------
+5. DEFINIÇÃO DE FEITO (Definition of Done - DoD)
+------------------------------------------------------------
+1. Revisão do Maurício.
+
+
+============================================================
+NOTAS ADICIONAIS:
+
+============================================================
